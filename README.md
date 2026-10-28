@@ -16,6 +16,12 @@
 </p>
 
 <p align="center">
+  Hecho por <a href="https://github.com/Helminth117"><b>Helminth117</b></a>, basado en
+  <a href="https://github.com/Nicovic17/vanish_webcam"><b>vanish_webcam</b></a> de
+  <a href="https://github.com/Nicovic17"><b>Nicovic17</b></a>.
+</p>
+
+<p align="center">
   <img src="docs/interfaz.png" width="820" alt="Interfaz de HelCam sosteniendo el gesto">
 </p>
 
