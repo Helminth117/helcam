@@ -9,10 +9,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Nicovic17/vanish_webcam"><img alt="Inspirado en Nicovic17/vanish_webcam" src="https://img.shields.io/badge/inspirado%20en-Nicovic17%2Fvanish__webcam-ff8a1f?style=for-the-badge&logo=github&logoColor=white"></a>
-  <img alt="Licencia MIT" src="https://img.shields.io/badge/licencia-MIT-3ddc84?style=for-the-badge">
-  <img alt="Python 3.12" src="https://img.shields.io/badge/python-3.12-6cc6ff?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Linux" src="https://img.shields.io/badge/linux-v4l2loopback-b48cff?style=for-the-badge&logo=linux&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3.12-2B2B2B?style=flat-square&labelColor=0D0D0D&logoColor=F5F5F5&logo=python" alt="Python 3.12">
+  <img src="https://img.shields.io/badge/MediaPipe-0.10-2B2B2B?style=flat-square&labelColor=0D0D0D&logoColor=F5F5F5&logo=google" alt="MediaPipe 0.10">
+  <img src="https://img.shields.io/badge/PySide6-Qt%206-2B2B2B?style=flat-square&labelColor=0D0D0D&logoColor=F5F5F5&logo=qt" alt="PySide6 · Qt 6">
+  <img src="https://img.shields.io/badge/Linux-v4l2loopback-2B2B2B?style=flat-square&labelColor=0D0D0D&logoColor=F5F5F5&logo=linux" alt="Linux · v4l2loopback">
+  <img src="https://img.shields.io/badge/Licencia-MIT-2B2B2B?style=flat-square&labelColor=0D0D0D&logoColor=F5F5F5" alt="Licencia MIT">
+  <a href="https://github.com/Nicovic17/vanish_webcam"><img src="https://img.shields.io/badge/Basado%20en-Nicovic17%2Fvanish__webcam-ff8a1f?style=flat-square&labelColor=0D0D0D&logoColor=F5F5F5&logo=github" alt="Basado en Nicovic17/vanish_webcam"></a>
 </p>
 
 <p align="center">
@@ -118,3 +120,14 @@ La idea de borrar a la persona de la webcam con un gesto viene de [**vanish_webc
 Proyecto de fans sin relación con Toei Animation ni Shueisha. *Dragon Ball* y sus personajes son marcas de sus dueños. Este repo no incluye imágenes ni audio del anime.
 
 Licencia [MIT](LICENSE).
+
+---
+
+<p align="center">
+  <a href="https://github.com/Helminth117">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Helminth117/Helminth117/main/assets/logotipo-blanco-transparente.png">
+      <img src="https://raw.githubusercontent.com/Helminth117/Helminth117/main/assets/logotipo-negro-transparente.png" alt="helminth117" width="180">
+    </picture>
+  </a>
+</p>
