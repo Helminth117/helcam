@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.part
+# Audio propio (p. ej. del anime): vive en ~/.config/helcam, nunca en el repo.
+teleport.mp3
+teleport.wav
+teleport.ogg

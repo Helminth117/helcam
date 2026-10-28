@@ -1,0 +1,37 @@
+[project]
+name = "helcam"
+version = "0.1.0"
+description = "Teletransporte estilo anime para tu webcam: dos dedos en la frente y desapareces."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Helminth117" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    # 1.x muere (SIGKILL) al cargar modelos en Linux; 0.10.21 funciona.
+    "mediapipe==0.10.21",
+    # Sin Qt propio: la interfaz es PySide6 y dos Qt en un proceso chocan.
+    "opencv-contrib-python-headless>=4.11,<5",
+    "numpy>=1.26,<2",
+    "PySide6>=6.7,<7",
+    "pyvirtualcam>=0.15,<1",
+    "pygame>=2.6,<3",
+]
+
+[project.scripts]
+helcam = "helcam.app:main"
+
+[tool.uv]
+# mediapipe pide opencv-contrib-python (con Qt 5); se sustituye por la versión headless.
+override-dependencies = ["opencv-contrib-python; sys_platform == 'never'"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["helcam"]
